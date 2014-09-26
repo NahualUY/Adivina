@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Adivina!</title>
+    <link rel="stylesheet" href="css/specs.css" />
+</head>
+<body>
+
+<h1>Especificaciones de Adivina!</h1>
+
+<table id="head">
+    <tr>
+        <th>Caso de uso</th>
+        <td>Adivina!</td>
+    </tr>
+    <tr>
+        <th>Objetivo</th>
+        <td>Adivinar, en la menor cantidad de intentos, un n&uacute;mero elegido por la computadora al azar.</td>
+    </tr>
+    <tr>
+        <th>Precondiciones</th>
+        <td>No hay precondiciones</td>
+    </tr>
+</table>
+
+<br/>
+
+<table id="specification">
+    <tdead>
+        <th>Curso normal</th>
+        <th>Resultado esperado</th>
+    </tdead>
+    <tbody>
+        <tr>
+            <td>El usuario ingresa a la aplicaci&oacute;n.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                El sistema muestra la pantalla:
+                <br/>
+                <ul>
+                    <li>
+                        T&iacute;tulos:
+                        <ul>
+                            <li>Adivina!</li>
+                            <li>Juego en el que la m&aacute;quina elige un n&uacute;mero al azar y el usuario intenta adivinarlo recibiendo algunas pistas.</li>
+                        </ul>
+                    </li>
+                    <li>Campos
+                        <ul>
+                            <li>N&uacute;mero (campo de texto que espera recibir un n&uacute;mero por parte del usuario y compararlo con el que adivn&oacute; la m&aacute;quina. Valor por defecto: Vac&iacute;o.</li>
+                        </ul>
+                    </li>
+                    <li>Acciones
+                      <ul><li>Prueba Suerte!</li>
+                          <li>Nuevo Juego</li>
+                    </li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>1. El usuario selecciona un n&uacute;mero y lo digita en el campo 'Numero'.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2. El usuario selecciona la opci&oacute;n "Prueba Suerte!" o la tecla ENTER.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3.1 El n&uacute;mero elegido es menor al seleccionado por la aplicaci&oacute;n.</td>
+            <td>El sistema muestra un mensaje indicando si se debe ingresar un n&uacute;mero mayor.</td>
+        </tr>
+        <tr>
+            <td>3.2 El n&uacute;mero elegido es mayor al seleccionado por la aplicaci&oacute;n.</td>
+            <td>El sistema muestra un mensaje indicando si se debe ingresar un n&uacute;mero menor.</td>
+        </tr>
+        <tr>
+            <td>4. El usuario selecciona la opci&oacute;n "Nuevo Juego".</td>
+            <td>El sistema selecciona otro n&uacute;mero aleatorio y comienza un nuevo juego.</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
